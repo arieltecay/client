@@ -1,0 +1,36 @@
+body {
+  background: #d3cce3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #e9e4f0,
+    #d3cce3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #e9e4f0,
+    #d3cce3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.form-login {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin: 0 auto;
+  width: 450px;
+  border: 1px solid #789b7ca9;
+  background: white;
+  padding: 17px;
+  border-radius: 2%;
+  margin-bottom: 10px;
+  transition-duration: 1s;
+}
+
+.iniciar {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+.container {
+  padding-top: 10%;
+  
+}
